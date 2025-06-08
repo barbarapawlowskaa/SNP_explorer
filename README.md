@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ## SNP_explorer Pipeline Usage
 
 ```
-snp_explorer.py [-h] [-c CSV_PATH] [-w] [-wo] [-g GENE] input_vcf report_html
+snp_explorer.py input_vcf report_html [-h] [-c CSV_PATH] [-w] [-wo] [-g GENE]
 ```
 where:
 
