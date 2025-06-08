@@ -25,5 +25,29 @@ pip install -r requirements.txt
 
 ## SNP_explorer Pipeline Usage
 
-## Examples
+```
+snp_explorer.py [-h] [-c CSV_PATH] [-w] [-wo] [-g GENE] input_vcf report_html
+```
+where:
 
+```
+input_vcf                           input VCF file
+report_html                         output HTML report path. The CSV path defaults to the same path with a .csv
+                                    extension unless --csv-path (-c) is provided.
+-h, --help                          show help message and exit
+-c CSV_PATH, --csv_path CSV_PATH    optional different output CSV path (default: same as HTML with .csv extension)
+-w, --with_rsid                     annotate assuming RSIDs are present in VCF
+-wo, --without_rsid                 annotate assuming no RSIDs in VCF, resolve via Ensembl
+-g GENE, --gene GENE                Gene filtering string
+
+## Examples - zmienic jak foldery
+
+```
+python3 snp_explorer.py -wo data/sample.vcf reports/report.html -c results/custom_report.csv
+```
+Annotates assuming there are no RSIDs in the VCF file, stores the HTML report in reports/report.html and saves the CSV in results/custom_report.csv.
+
+```
+python3 snp_explorer.py -w -g BRCA1 data/input.vcf reports/report.html 
+```
+Annotates assuming RSIDs are present in the VCF file, filters wariants for BRCA1 gene and outputs both the HTML report (as reports/report.html) and CSV report (as reports/report.csv)
