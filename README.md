@@ -41,7 +41,7 @@ report_html                         output HTML report path. The CSV path defaul
 -g GENE, --gene GENE                Gene filtering
 ```
 
-## Examples - zmienic jak foldery
+## Examples 
 
 ```
 python3 snp_explorer.py -wo data/sample.vcf reports/report.html -c results/report.csv
