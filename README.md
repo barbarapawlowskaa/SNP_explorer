@@ -39,6 +39,7 @@ report_html                         output HTML report path. The CSV path defaul
 -w, --with_rsid                     annotate assuming RSIDs are present in VCF
 -wo, --without_rsid                 annotate assuming no RSIDs in VCF, resolve via Ensembl
 -g GENE, --gene GENE                Gene filtering string
+```
 
 ## Examples - zmienic jak foldery
 
