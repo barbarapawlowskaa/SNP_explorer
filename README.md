@@ -38,7 +38,7 @@ report_html                         output HTML report path. The CSV path defaul
 -c CSV_PATH, --csv_path CSV_PATH    optional different output CSV path (default: same as HTML with .csv extension)
 -w, --with_rsid                     annotate assuming RSIDs are present in VCF
 -wo, --without_rsid                 annotate assuming no RSIDs in VCF, resolve via Ensembl
--g GENE, --gene GENE                Gene filtering string
+-g GENE, --gene GENE                Gene filtering
 ```
 
 ## Examples - zmienic jak foldery
@@ -52,3 +52,8 @@ Annotates assuming there are no RSIDs in the VCF file, stores the HTML report in
 python3 snp_explorer.py -w -g BRCA1 data/sample.vcf reports/report.html 
 ```
 Annotates assuming RSIDs are present in the VCF file, filters wariants for BRCA1 gene and outputs both the HTML report (as reports/report.html) and CSV report (as reports/report.csv)
+
+```
+python3 snp_explorer.py -w -g BRCA1,BRCA2 data/sample.vcf reports/report.html 
+```
+Annotates assuming RSIDs are present in the VCF file, filters wariants for both BRCA1 and BRCA2 genes and outputs both the HTML report (as reports/report.html) and CSV report (as reports/report.csv)
