@@ -1,4 +1,4 @@
-# SNP_explorer
+# SNP_explorer 🧬
 
 SNP Explorer is a command-line tool for analyzing SNP variants from VCF (Variant Call Format) files. It filters variants based on clinical significance and gene of interest and generates detailed HTML and CSV reports.
 
