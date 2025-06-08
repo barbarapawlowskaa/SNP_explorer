@@ -9,12 +9,12 @@ SNP Explorer is a command-line tool for analyzing SNP variants from VCF (Variant
 3. Filtering variants based on presence of RSID, clinical significance, and optional gene input.
 4. Generating an HTML summary report and a CSV export of results.
 
-## SNP_explorer Installation
+## SNP_explorer installation
 
 ```
 git clone https://github.com/barbarapawlowskaa/SNP_explorer.git
 ```
-## Dependencies Installation
+## Dependencies installation
 
 ```
 cd SNP_explorer
@@ -23,7 +23,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## SNP_explorer Pipeline Usage
+## SNP_explorer pipeline usage
 
 ```
 snp_explorer.py input_vcf report_html [-h] [-c CSV_PATH] [-w] [-wo] [-g GENE]
