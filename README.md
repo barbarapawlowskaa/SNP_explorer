@@ -11,16 +11,14 @@ SNP Explorer is a command-line tool for analyzing SNP variants from VCF (Variant
 
 ## SNP_explorer Installation
 
-```bash
+```
 git clone https://github.com/barbarapawlowskaa/SNP_explorer.git
-
 ```
 ## Dependencies Installation
 
-```bash
+```
 cd SNP_explorer
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-
 ```
