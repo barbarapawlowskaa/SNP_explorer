@@ -23,7 +23,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Usage
+## SNP_explorer Pipeline Usage
 
 ## Examples
 
