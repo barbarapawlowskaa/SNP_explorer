@@ -31,14 +31,14 @@ snp_explorer.py input_vcf report_html [-h] [-c CSV_PATH] [-w] [-wo] [-g GENE]
 where:
 
 ```
-input_vcf                                 input VCF file
-report_html                               output HTML report path. The CSV path defaults to the same path with a .csv
-                                          extension unless --csv-path (-c) is provided.
--h,             --help                    show help message and exit
--c CSV_PATH     --csv_path CSV_PATH       optional different output CSV path (default: same as HTML with .csv extension)
--w              --with_rsid               annotate assuming RSIDs are present in VCF
--wo             --without_rsid            annotate assuming no RSIDs in VCF, resolve via Ensembl
--g GENE         --gene GENE               gene filtering
+input_vcf                                input VCF file
+report_html                              output HTML report path. The CSV path defaults to the same path with a .csv
+                                         extension unless --csv-path (-c) is provided.
+-h             --help                    show help message and exit
+-c             --csv_path CSV_PATH       optional different output CSV path (default: same as HTML with .csv extension)
+-w             --with_rsid               annotate assuming RSIDs are present in VCF
+-wo            --without_rsid            annotate assuming no RSIDs in VCF, resolve via Ensembl
+-g             --genes GENES             gene filtering
 ```
 
 ## Examples 
