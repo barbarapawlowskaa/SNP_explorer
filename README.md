@@ -4,8 +4,8 @@ SNP Explorer is a command-line tool for analyzing SNP variants from VCF (Variant
 
 ## Features
 
-1. Annotating variants using RSIDs or queries Ensembl to resolve missing RSIDs.
-2. Querying dbSNP for clinical and frequency annotations.
+1. Annotating variants using RSIDs or querying Ensembl to resolve missing RSIDs.
+2. Querying dbSNP for clinical, frequency and gene annotations.
 3. Filtering variants based on presence of RSID, clinical significance, and optional gene input.
 4. Generating an HTML summary report and a CSV export of results.
 
