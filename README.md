@@ -55,3 +55,12 @@ Annotates assuming RSIDs are present in the VCF file, filters wariants for BRCA1
 python3 snp_explorer.py -w -g BRCA1,BRCA2 data/sample.vcf reports/report.html 
 ```
 Annotates assuming RSIDs are present in the VCF file, filters wariants for both BRCA1 and BRCA2 genes and outputs both the HTML report (as reports/report.html) and CSV report (as reports/report.csv).
+
+## Data
+
+Data used for generating example reports that can be found in ./reports/:
+
+Raw BRCA1/2 variants in breast cancer patients and healthy relatives produced with GATK.
+
+  https://zenodo.org/records/215615
+  
