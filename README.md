@@ -42,23 +42,23 @@ report_html                              output HTML report path. The CSV path d
 ## Examples 
 
 ```
-python3 snp_explorer.py -wo data/sample.vcf reports/report.html -c results/report.csv
+python3 snp_explorer.py -wo ../data/sample.vcf ../reports/report.html -c ../results/report.csv
 ```
 Annotates assuming there are no RSIDs in the VCF file, stores the HTML report in reports/report.html and saves the CSV in results/report.csv.
 
 ```
-python3 snp_explorer.py -w -g BRCA1 data/sample.vcf reports/report.html 
+python3 snp_explorer.py -w -g BRCA1 ../data/sample.vcf ../reports/report.html 
 ```
 Annotates assuming RSIDs are present in the VCF file, filters wariants for BRCA1 gene and outputs both the HTML report (as reports/report.html) and CSV report (as reports/report.csv).
 
 ```
-python3 snp_explorer.py -w -g BRCA1,BRCA2 data/sample.vcf reports/report.html 
+python3 snp_explorer.py -w -g BRCA1,BRCA2 ../data/sample.vcf ../reports/report.html 
 ```
 Annotates assuming RSIDs are present in the VCF file, filters wariants for both BRCA1 and BRCA2 genes and outputs both the HTML report (as reports/report.html) and CSV report (as reports/report.csv).
 
 ## Data
 
-Data used for generating exemplary reports that can be found in ./reports/:
+Data used for generating exemplary reports that can be found in reports/ :
 
 Arakelyan A. (2016). Raw BRCA1/2 variants in breast cancer patients and healthy relatives produced with GATK. [Data set]. Zenodo. (Accessed: 10.06.2025)
 
