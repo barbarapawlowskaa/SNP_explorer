@@ -23,7 +23,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## SNP_explorer pipeline usage
+## Usage
 
 ```
 snp_explorer.py [-h] [-c CSV_PATH] [-w] [-wo] [-g GENES] input_vcf report_html
