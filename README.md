@@ -27,11 +27,7 @@ pip install -r requirements.txt
 
 ```
 snp_explorer.py [-h] [-c CSV_PATH] [-w] [-wo] [-g GENES] input_vcf report_html
-```
 
-where:
-
-```
 input_vcf                                input VCF file
 report_html                              output HTML report path. The CSV path defaults to the same path with a .csv
                                          extension unless --csv-path (-c) is provided.
@@ -40,6 +36,7 @@ report_html                              output HTML report path. The CSV path d
 -w             --with_rsid               annotate assuming RSIDs are present in VCF
 -wo            --without_rsid            annotate assuming no RSIDs in VCF, resolve via Ensembl
 -g             --genes GENES             gene filtering
+
 ```
 
 ## Examples 
