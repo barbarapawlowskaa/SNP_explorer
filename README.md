@@ -62,5 +62,6 @@ Data used for generating example reports that can be found in ./reports/:
 
 Raw BRCA1/2 variants in breast cancer patients and healthy relatives produced with GATK.
 
-  https://zenodo.org/records/215615
-  
+```
+https://zenodo.org/records/215615
+```  
