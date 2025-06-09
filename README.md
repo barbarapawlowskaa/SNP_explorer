@@ -60,7 +60,7 @@ Annotates assuming RSIDs are present in the VCF file, filters wariants for both 
 
 Data used for generating example reports that can be found in ./reports/:
 
-Raw BRCA1/2 variants in breast cancer patients and healthy relatives produced with GATK.
+Arakelyan A. (2016). Raw BRCA1/2 variants in breast cancer patients and healthy relatives produced with GATK. [Data set]. Zenodo.
 
 ```
 https://zenodo.org/records/215615
