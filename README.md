@@ -63,5 +63,5 @@ Data used for generating example reports that can be found in ./reports/:
 Arakelyan A. (2016). Raw BRCA1/2 variants in breast cancer patients and healthy relatives produced with GATK. [Data set]. Zenodo. (dostęp: 10.06.2025)
 
 ```
-https://zenodo.org/records/215615
+https://doi.org/10.5281/zenodo.215615
 ```  
